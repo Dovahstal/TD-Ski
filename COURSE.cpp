@@ -76,7 +76,7 @@ void COURSE::classerLesParticipationsWCSL(bool valeurAppel)
 			//pour chaque i allant de 0 a 99
 			for (int i = 0; i <= 98; i++)
 			{
-				//si le WSCL du competiteur de la participation i est superieur au WSCL du competiteur de la participation i+1 (le suivant)
+				//si le WSCL du competiteur de la participation i est superieur au WSCL du competiteur de la participation i+1 (le suivant) 
 				if (participations[i].getCompetiteur()->getScoreWCSL() < participations[i + 1].getCompetiteur()->getScoreWCSL())
 				{
 					//x = i (stocke la participation i dans une participation x)
